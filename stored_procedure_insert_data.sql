@@ -1,3 +1,5 @@
+-- aqui ageegmos a los clientes nuevos que vistan el restaurante
+
 CREATE PROCEDURE `insert_new_client`(
 IN nombre_nuevo_cliente VARCHAR(50),
 IN plato_ordenado_nuevo_cliente VARCHAR(30), 
