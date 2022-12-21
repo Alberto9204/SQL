@@ -1,3 +1,6 @@
+En este triger estamos agregando un nuevo proveedor con sus datos de contacto y pues como se solicto se pone el registro de hora usuario y version de esta manera saber cuando se
+se dio de alta y por quien se dio
+
 CREATE DEFINER=`root`@`localhost` TRIGGER `tr_add_new_proveedor` AFTER INSERT ON `proveedor` FOR EACH ROW BEGIN
 	insert into `la_musleria`.`new_proveedor`(id_proveedor, nombre_proveedor, contacto_proveedor, producto_proveedor, usuario, registro, db, version)
     values (new.id_proveedor, new.nombre_proveedor, new.contacto_proveedor, new.producto_proveedor, user(), current_timestamp(), database(), version());
