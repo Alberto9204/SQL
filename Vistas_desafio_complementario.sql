@@ -21,3 +21,6 @@ CREATE OR REPLACE VIEW facturas_a_deducir AS
 SELECT id_factura, total_factura, rfc_factura
 FROM factura
 WHERE total_factura >= 1000;
+
+
+# En estas vistas como su nombres los describen es para que los empleados de el negocio puedan ver informacion de la bd sin informacion confidencila o sensible para muchos de ellos
