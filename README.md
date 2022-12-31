@@ -18,7 +18,7 @@ Se trabajará para que no queden mal los proveedores y asi siempre tener los pla
 
 # Segunda entrega SQL
 
-Se hace entrega de los 3 objetos vistos en el curso vistas, funciones, stored procedures y triggers.
+Se hace entrega de los 4 objetos vistos en el curso vistas, funciones, stored procedures y triggers.
  
 - En las vistas son vistas para los empleados de el restaurante puedan ver informacion de los empelados y cleintes sin datos sensibles y de esta maneras poder aplicar las promociones correspondientes a los clientes y/o contactar algun empleado.
 
