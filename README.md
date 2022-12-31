@@ -14,3 +14,19 @@ El restaurante tiene su platillo estrella que son los muslos y sus salsas y 4 ti
 -4 hamburguesas<br>
 -2 postres<br>
 Se trabajará para que no queden mal los proveedores y asi siempre tener los platillos del menú e incrementar las ventas del establecimiento.
+
+
+# Segunda entrega SQL
+
+Se hace entrega de los 3 objetos vistos en el curso vistas, funciones, stored procedures y triggers.
+ 
+- En las vistas son vistas para los empleados de el restaurante puedan ver informacion de los empelados y cleintes sin datos sensibles y de esta maneras poder aplicar las promociones correspondientes a los clientes y/o contactar algun empleado.
+
+- En las funciones se utilizaron dos funciones sencillas una para obtener el IVA de los productos vendidos, y la segunda funcuiones fue para con solo poner el id de los productos arroje que platillo es que se esta ordenando.
+
+- En los stored procedures hicimos los dos que pedian en consignas anteriores el ordenar de manera ascenente o desendente una lista de la bd por medio de un booolean y en el segundo para agregar un dato en alguna tabla que en este caso de utilizo para cuando nos visitara un cliente nuevo al restaurante darlo de alta en la bd y asi irle aplicsando promociones dependiendo de las veces que nos visite.
+
+- En el trigger estamos agregando un nuevo proveedor con sus datos de contacto y pues como se solicto se pone el registro de hora usuario y version de esta manera saber cuando se se dio de alta y por quien se dio; y asi llevar un lleando correcto y eficaz de la base de batos.
+
+
+
